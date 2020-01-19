@@ -53,7 +53,7 @@ function reset(){
     pickedColor = pickColor();
     colorDisplay1.textContent = pickedColor;
     messageDisplay.textContent = "";
-    resetButton.textContent = "New Colors";
+    resetButton.textContent = "New Colours";
     for(var i=0;i< squares.length;i++)
     {
         if(colors[i]){
